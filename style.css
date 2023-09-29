@@ -24,10 +24,10 @@ body{
 
 h1{
     color: #ffff;
+    text-align: center;
 }
 
 .verde{
-    
     background-color:#50af8a ;
     color: #ffff;
 }
@@ -36,9 +36,31 @@ h1{
     background-color: #465259;
 }
 
-
+input{
+    width: 300px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #1f2933;
+}
 
 .inputD{
     display: flex;
+}
+
+.input input{
+    width: 602px;
+    
+}
+
+.botao{
+    display: flex;
+    justify-content: center;
+}
+.get{
+    background-color: #50af8a;
+    color: #ffff;
+    width: 300px;
+    height: 50px;
+    border-radius: 10px;
 }
 
